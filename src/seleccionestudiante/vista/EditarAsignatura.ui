@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>499</width>
-    <height>139</height>
+    <height>199</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,25 +18,12 @@
     <rect>
      <x>30</x>
      <y>20</y>
-     <width>111</width>
+     <width>121</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
     <string>Código de asignatura</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="cboAsignatura">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>20</y>
-     <width>201</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="currentText">
-    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="btnEditar">
@@ -68,14 +55,14 @@
   <widget class="QLabel" name="lblCod">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>170</x>
      <y>80</y>
      <width>47</width>
      <height>13</height>
     </rect>
    </property>
    <property name="text">
-    <string>ASI001</string>
+    <string>____</string>
    </property>
   </widget>
   <widget class="QLabel" name="lblCodigo_3">
@@ -89,16 +76,6 @@
    </property>
    <property name="text">
     <string>Nombre</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="leANombre">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>110</y>
-     <width>231</width>
-     <height>20</height>
-    </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="btnAceptar">
@@ -125,6 +102,26 @@
    </property>
    <property name="text">
     <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leANombre_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>111</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
    </property>
   </widget>
  </widget>
