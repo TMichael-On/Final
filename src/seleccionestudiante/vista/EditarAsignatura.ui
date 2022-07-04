@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>499</width>
-    <height>199</height>
+    <height>278</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <rect>
      <x>30</x>
      <y>20</y>
-     <width>121</width>
+     <width>131</width>
      <height>16</height>
     </rect>
    </property>
@@ -26,7 +26,7 @@
     <string>Código de asignatura</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnEditar">
+  <widget class="QPushButton" name="btnBuscar">
    <property name="geometry">
     <rect>
      <x>400</x>
@@ -36,7 +36,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Editar</string>
+    <string>Buscar</string>
    </property>
   </widget>
   <widget class="QLabel" name="lblCodigo">
@@ -57,21 +57,21 @@
     <rect>
      <x>170</x>
      <y>80</y>
-     <width>47</width>
-     <height>13</height>
+     <width>211</width>
+     <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>____</string>
+    <string>_________________________________</string>
    </property>
   </widget>
-  <widget class="QLabel" name="lblCodigo_3">
+  <widget class="QLabel" name="lblNombreE">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>110</y>
-     <width>47</width>
-     <height>13</height>
+     <y>160</y>
+     <width>131</width>
+     <height>16</height>
     </rect>
    </property>
    <property name="text">
@@ -82,7 +82,7 @@
    <property name="geometry">
     <rect>
      <x>400</x>
-     <y>80</y>
+     <y>90</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -95,7 +95,7 @@
    <property name="geometry">
     <rect>
      <x>400</x>
-     <y>110</y>
+     <y>130</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -114,14 +114,66 @@
     </rect>
    </property>
   </widget>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QTextBrowser" name="txtNombre">
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>111</y>
+     <y>160</y>
      <width>201</width>
      <height>61</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNombreA">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre Actual</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNom">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>120</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>_________________________________</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNombreE_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mensaje</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblMens">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>_________________________________</string>
    </property>
   </widget>
  </widget>
